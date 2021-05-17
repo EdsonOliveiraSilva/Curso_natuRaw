@@ -12,26 +12,37 @@ body {
     border: none;
 }
 
+.divOrange {
+    background-color: #dd4320;
+    padding-bottom: 15px;
+}
+
 .divWhite {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     padding-bottom: 15px;
 }
 
-.divGreen {
-    background-color: #83A603;
-    padding-bottom: 15px;
-}
-
-#divSessaoVideo h1 {
+#divSessaoInicio h1 {
     font-weight: 800;
     font-size: 42px;
     color: #000000;
     text-align: center;
 }
 
-#divSessaoVideo p {
+#divSessaoInicio p {
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+#divSessaoInicio img{
+    width: 700px;
+    height: 450px;
+    object-fit: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
 }
 
 .botao {
@@ -60,6 +71,16 @@ body {
     color: white;
 }
 
+#divSessaoQuemE img{
+    width: 350px;
+    height: 450px;
+    object-fit: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
 .ul {
     color: white;
     font-size: 18px;
@@ -72,7 +93,7 @@ body {
     padding-bottom: 15px;
 }
 
-.img {
+/*.img {
     width: 350px;
     height: 350px;
     object-fit: none;
@@ -80,7 +101,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
-}
+}*/
 
 .imgPayment {
     object-fit: none;
@@ -90,40 +111,7 @@ body {
 }
 
 
-#divRedesSociais {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-}
 
-#divRedesSociais h2 {
-    font-weight: 800;
-    font-size: 32px;
-    color: #000000;
-    text-align: center;
-}
-
-#divRedesSociais strong {
-    color: rgb(0, 0, 0);
-}
-
-#divMeet h2 {
-    font-weight: 800;
-    font-size: 32px;
-    color: #000000;
-    text-align: center;
-}
-
-#divMeet p {
-    color: rgb(0, 0, 0);
-    font-size: 32px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-
-#divMeet i {
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
 
 #divAoVivo h2 {
     font-weight: 800;
@@ -149,8 +137,15 @@ body {
     font-weight: 800;
     font-size: 32px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
+}
+
+#divCasaSolar p {
+    text-align: center;
+    font-size: 23px;
+    
+    color:#ffffff;
 }
 
 #divCaradapio p,
